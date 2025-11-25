@@ -1,0 +1,5 @@
+temp_c,pm25,precip_mm,wind_kph,label
+20,10,0,5,good
+30,50,5,20,bad
+15,5,0,10,good
+35,60,10,30,bad

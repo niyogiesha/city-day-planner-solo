@@ -1,0 +1,6 @@
+WBS,Task,PV (Planned $),EV (Earned $),AC (Actual $),SV=EV-PV,CV=EV-AC,SPI=IF(PV=0,1,EV/PV),CPI=IF(AC=0,1,EV/AC),Notes
+1,Project Setup,100,0,0,=C2-B2,=C2-D2,=IF(B2=0,1,C2/B2),=IF(D2=0,1,C2/D2),
+2,App MVP,500,0,0,=C3-B3,=C3-D3,=IF(B3=0,1,C3/B3),=IF(D3=0,1,C3/D3),
+3,Data Analysis,150,0,0,=C4-B4,=C4-D4,=IF(B4=0,1,C4/B4),=IF(D4=0,1,C4/D4),
+4,Docs & Plans,150,0,0,=C5-B5,=C5-D5,=IF(B5=0,1,C5/B5),=IF(D5=0,1,C5/D5),
+5,Polish & Submit,100,0,0,=C6-B6,=C6-D6,=IF(B6=0,1,C6/B6),=IF(D6=0,1,C6/D6),

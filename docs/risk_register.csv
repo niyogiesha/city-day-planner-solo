@@ -1,0 +1,6 @@
+ID,Risk,Category,Probability(0-1),Impact(1-5),Score=P*I,Mitigation,Owner,Trigger,Status
+R1,APIs blocked or rate-limited,Technical,0.3,4,=D2*E2,Cache results; run off-peak; add retry,You,HTTP 429,Open
+R2,Time overrun,Schedule,0.5,5,=D3*E3,Scope to MVP; daily 60-min work blocks,You,Missed daily target,Open
+R3,Broken environment,Technical,0.3,3,=D4*E4,Use venv; pin versions; README steps,You,ImportError,Open
+R4,Data quality poor,Quality,0.4,3,=D5*E5,Show source next to value; sanity checks,You,Weird values,Open
+R5,Submission packaging,Process,0.2,3,=D6*E6,README checklist; dry-run zip,You,Nearing deadline,Open

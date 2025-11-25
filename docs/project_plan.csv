@@ -1,0 +1,8 @@
+WBS,Task,Owner,Start,Finish,Duration(d),Dependencies,Status,% Complete,Notes
+1,Project Setup,You,2025-11-25,2025-11-26,2,,Not Started,0,Create repo, venv, run app
+1.1,Repo & Readme,You,2025-11-25,2025-11-25,1,1,Not Started,0,
+1.2,Run Starter App,You,2025-11-25,2025-11-26,2,1,Not Started,0,
+2,App MVP,You,2025-11-27,2025-12-03,7,1,Not Started,0,Wire GUI + data fetch + comfort score
+3,Data Analysis,You,2025-12-04,2025-12-05,2,2,Not Started,0,Export CSV & simple plots
+4,Docs & Plans,You,2025-12-06,2025-12-07,2,2,Not Started,0,Fill risk/EV/PM/Test docs
+5,Polish & Submit,You,2025-12-08,2025-12-09,2,4,Not Started,0,Screenshots, README polish
