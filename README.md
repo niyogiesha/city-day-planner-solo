@@ -28,3 +28,4 @@ python app/main.py
 
 ## Deliverables
 See the `docs/` folder for: project_plan.csv, risk_register.csv, earned_value.csv, pm_plan.md, test_document.md. Update as you work and push to GitHub.
+# city-day-planner-solo
